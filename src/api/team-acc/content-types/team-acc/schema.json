@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_accs",
+  "info": {
+    "singularName": "team-acc",
+    "pluralName": "team-accs",
+    "displayName": "Team-acc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Post": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

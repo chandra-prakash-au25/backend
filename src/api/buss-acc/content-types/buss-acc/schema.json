@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buss_accs",
+  "info": {
+    "singularName": "buss-acc",
+    "pluralName": "buss-accs",
+    "displayName": "buss-acc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "head": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
